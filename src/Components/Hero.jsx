@@ -2,11 +2,10 @@ import heroine from "../assets/heroine.png";
 import { PURPOSE, TAGLINE } from "../utils/constants";
 import { motion } from "framer-motion";
 import Bg from "./Bg";
-// import { Parallax } from "react-parallax";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className="hero-content">
       <Bg />
       <div className="flex">
         <div className="yes">
