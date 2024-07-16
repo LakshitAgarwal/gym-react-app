@@ -5,9 +5,9 @@ import Bg from "./Bg";
 
 const Hero = () => {
   return (
-    <div className="hero-content">
+    <div>
       <Bg />
-      <div className="flex">
+      <div className="flex sticky top-[100px]">
         <div className="yes">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
@@ -62,6 +62,7 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
+      <div className="h-screen bg-white sticky top-[112px]">{/* <Bg /> */}</div>
     </div>
   );
 };

@@ -1,9 +1,11 @@
 import logo from "../assets/gym-logo.png";
+// import Bg from "./Bg";
 
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between mr-20 ml-10">
+      <div className="flex justify-between mr-20 ml-10 sticky top-0">
+        {/* <Bg /> */}
         <img className="w-28" src={logo} alt="Gym Logo" />
         <ul className="flex gap-8 m-auto text-sm font-ubuntu ">
           <li className="cursor-pointer hover:text-purple-700 ">Home</li>
