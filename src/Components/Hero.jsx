@@ -2,6 +2,7 @@ import heroine from "../assets/heroine.png";
 import { PURPOSE, TAGLINE } from "../utils/constants";
 import { motion } from "framer-motion";
 import Bg from "./Bg";
+import ThreeCards from "./ThreeCards";
 
 const Hero = () => {
   return (
@@ -62,7 +63,7 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-      <div className="h-screen bg-white sticky top-[112px]">{/* <Bg /> */}</div>
+      <ThreeCards />
     </div>
   );
 };

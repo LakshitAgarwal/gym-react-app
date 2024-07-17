@@ -95,3 +95,13 @@
 .web-title {
   color: rgb(48, 0, 66);
 }
+
+.cards {
+  box-shadow: 10px 10px 3rem #c2c2c2;
+  border-radius: 25% 5%;
+  transition: 0.3s ease;
+}
+
+.cards:hover {
+  border-radius: 5% 25%;
+}
