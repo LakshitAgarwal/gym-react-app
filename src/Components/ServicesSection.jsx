@@ -4,6 +4,16 @@ import { motion } from "framer-motion";
 const ServicesSection = () => {
   return (
     <div className="bg-purple-50 m-0 p-0">
+      <div className="text-center">
+        <h1 className="text-2xl font-extrabold text-purple-800 arsenal-sc-regular">
+          SERVICES
+        </h1>
+        <h1 className="text-5xl font-bold pt-3">Our Featured Classes</h1>
+        <p className="mx-auto w-1/3 text-lg py-4 pb-6 text-gray-500">
+          Our Trainers know what is best for your body and they work to the best
+          of your needs.
+        </p>
+      </div>
       <div className="flex flex-wrap mx-28">
         {SERVICES_CARD_INFO.map((service, i) => {
           return (
