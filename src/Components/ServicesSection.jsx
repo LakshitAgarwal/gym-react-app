@@ -10,7 +10,7 @@ const ServicesSection = () => {
               <div className="bg-white rounded-lg shadow-xl flex flex-col items-center group transition duration-500 overflow-hidden">
                 <div className="w-full h-auto overflow-hidden">
                   <img
-                    className="w-full h-auto transform scale-100 group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-auto transform scale-100 group-hover:scale-125 transition-transform duration-500"
                     src={service.img}
                     alt={service.heading}
                   />
