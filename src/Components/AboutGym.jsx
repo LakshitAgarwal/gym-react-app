@@ -5,13 +5,14 @@ import {
   ATHELETE_URL,
 } from "../utils/constants";
 import { motion } from "framer-motion";
+import ServicsSection from "./ServicsSection";
 
 const AboutGym = () => {
   return (
     <div className="bg-purple-50">
       <div className="flex mt-28 ">
         <img
-          className="w-[35%] rounded-3xl ml-40 mb-40 mr-14 hover:scale-105 transition duration-500 ease-in-out"
+          className="w-[40%] rounded-3xl ml-40 mb-40 mr-14 hover:scale-105 transition duration-500 ease-in-out"
           src={ATHELETE_URL}
           alt=""
         />
@@ -20,9 +21,9 @@ const AboutGym = () => {
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="w-[35%] flex flex-col justify-start"
+          className="w-[38%] flex flex-col justify-center content h-fit"
         >
-          <h1 className="text-[3.5rem] mt-14 tracking-wider text-[#ff0034] arsenal-sc-regular">
+          <h1 className="text-[3.5rem] tracking-wider text-[#ff0034] arsenal-sc-regular">
             <span className="text-7xl">A</span>bout{" "}
             <span className="text-7xl">O</span>ur{" "}
             <span className="text-7xl">G</span>ym
@@ -35,6 +36,7 @@ const AboutGym = () => {
           </button>
         </motion.div>
       </div>
+      <ServicsSection />
     </div>
   );
 };

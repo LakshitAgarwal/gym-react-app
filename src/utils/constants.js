@@ -26,3 +26,4 @@ export const imgDescriptionsArray = [
   "We bring the right people together to challenge established thinking and drive transform in 2020",
   "We bring the right people together to challenge established thinking and drive transform in 2020",
 ];
+

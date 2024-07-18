@@ -105,3 +105,6 @@
 .cards:hover {
   border-radius: 5% 25%;
 }
+.content {
+  margin: inherit;
+}
