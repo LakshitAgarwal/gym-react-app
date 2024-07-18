@@ -13,7 +13,7 @@ const ThreeCards = () => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.2 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="flex justify-around ml-16 mr-16"
       >
         {img_array.map((img, index) => {

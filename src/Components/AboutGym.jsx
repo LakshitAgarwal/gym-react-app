@@ -17,13 +17,13 @@ const AboutGym = () => {
           alt=""
         />
         <motion.div
-          initial={{ y: 100, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ z: 100, opacity: 0 }}
+          whileInView={{ z: 0, opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.5, delay: 0.25, ease: "easeIn" }}
           className="w-[38%] flex flex-col justify-center content h-fit"
         >
-          <h1 className="text-[3.5rem] tracking-wider text-[#ff0034] arsenal-sc-regular">
+          <h1 className="text-[3.5rem] tracking-wider text-purple-800 arsenal-sc-regular">
             <span className="text-7xl">A</span>bout{" "}
             <span className="text-7xl">O</span>ur{" "}
             <span className="text-7xl">G</span>ym

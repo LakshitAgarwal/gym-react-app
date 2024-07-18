@@ -1,4 +1,5 @@
 import { SERVICES_CARD_INFO } from "../utils/constants";
+import { motion } from "framer-motion";
 
 const ServicesSection = () => {
   return (
@@ -6,7 +7,13 @@ const ServicesSection = () => {
       <div className="flex flex-wrap mx-28">
         {SERVICES_CARD_INFO.map((service, i) => {
           return (
-            <div key={i} className="w-full sm:w-1/2 lg:w-1/3 p-4 flex">
+            <motion.div
+              key={i}
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.2, ease: "easeIn" }}
+              className="w-full sm:w-1/2 lg:w-1/3 p-4 flex"
+            >
               <div className="bg-white rounded-lg shadow-xl flex flex-col items-center group transition duration-500 overflow-hidden">
                 <div className="w-full h-auto overflow-hidden">
                   <img
@@ -27,7 +34,7 @@ const ServicesSection = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>
