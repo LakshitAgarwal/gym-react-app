@@ -5,7 +5,7 @@ import {
   ATHELETE_URL,
 } from "../utils/constants";
 import { motion } from "framer-motion";
-import ServicsSection from "./ServicsSection";
+import ServicesSection from "./ServicesSection";
 
 const AboutGym = () => {
   return (
@@ -36,7 +36,7 @@ const AboutGym = () => {
           </button>
         </motion.div>
       </div>
-      <ServicsSection />
+      <ServicesSection />
     </div>
   );
 };

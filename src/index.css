@@ -53,6 +53,19 @@
   background-image: linear-gradient(316deg, #3e187a 0%, #994ecc 74%);
   transition: 0.5s ease;
 }
+
+.services-btn {
+  background-color: #3e187a;
+  background-image: linear-gradient(316deg, #3e187a 0%, #994ecc 74%);
+  transition: 0.5s ease;
+}
+
+.services-btn:hover {
+  background: #6035a6;
+  cursor: pointer;
+  filter: drop-shadow(10px 10px 1.5rem #af95da);
+}
+
 .btn:hover {
   background: #6035a6;
   cursor: pointer;

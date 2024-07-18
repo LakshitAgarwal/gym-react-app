@@ -18,7 +18,10 @@ const ThreeCards = () => {
       >
         {img_array.map((img, index) => {
           return (
-            <div className="cards w-[25%] m-4 p-4 mt-28 text-center justify-center items-center flex flex-col min-h-72">
+            <div
+              key={index}
+              className="cards w-[25%] m-4 p-4 mt-28 text-center justify-center items-center flex flex-col min-h-72"
+            >
               <img className="m-2" src={img} alt="" />
               <h1 className="m-2 text-2xl font-bold">
                 {imgHeadingsArray[index]}

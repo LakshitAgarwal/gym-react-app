@@ -27,3 +27,41 @@ export const imgDescriptionsArray = [
   "We bring the right people together to challenge established thinking and drive transform in 2020",
 ];
 
+export const SERVICES_CARD_INFO = [
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-1.webp",
+    heading: "Personal Training",
+    description:
+      "Achieve your fitness goals faster with one-on-one guidance from certified trainers who create personalized workout plans just for you.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-2.webp",
+    heading: "Fitness Classes",
+    description:
+      "Explore a diverse range of fitness classes, from high-energy cardio workouts to mind-calming yoga sessions, tailored to all fitness levels.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-6.webp",
+    heading: "Strength Training",
+    description:
+      "Sculpt and tone your body using our comprehensive array of free weights, weight machines, and functional training equipment.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-4.webp",
+    heading: "Running Track",
+    description:
+      "Boost your cardio on our indoor or outdoor tracks. Perfect for all levels, our tracks offer a convenient space for effective running workouts.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-5.webp",
+    heading: "Nutritional Guidance",
+    description:
+      "Receive expert nutritional advice and meal planning assistance to complement your fitness routine and optimize your results.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-3.webp",
+    heading: "Yoga",
+    description:
+      "Discover tranquility and flexibility in our yoga classes. From beginner to advanced, our instructors guide you through poses and meditation techniques",
+  },
+];
