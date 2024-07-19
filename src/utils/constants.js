@@ -65,3 +65,32 @@ export const SERVICES_CARD_INFO = [
       "Discover tranquility and flexibility in our yoga classes. From beginner to advanced, our instructors guide you through poses and meditation techniques",
   },
 ];
+
+export const STICKY_CARDS_CONTENT = [
+  {
+    heading: "Group CrossFit Classes",
+    description:
+      "Get fit and have fun with our high-intensity group CrossFit classes, designed for all fitness levels. Improve your strength, endurance, and overall fitness in a supportive community.",
+  },
+  {
+    heading: "Strength Equipment",
+    description:
+      "Crush any strength program with our top-tier suite of strength equipment. Achieve your fitness goals with our premium tools designed for maximum performance and durability, perfect for all levels of training.",
+  },
+  {
+    heading: "World-Class Coaching",
+    description:
+      "Be guided every step of the way with one of our world-class coaches. Experience personalized training and expert support to help you achieve your fitness goals efficiently and safely.",
+  },
+  {
+    heading: "Fun Member Events",
+    description:
+      "Make new friends and get competitive with our fun member events. Enjoy a lively community atmosphere while challenging yourself and connecting with fellow fitness enthusiasts.",
+  },
+];
+
+export const STICKY_HEADING = "We've Got You Covered";
+export const STICKY_PARA_1 =
+  "No matter your fitness level or goals, you'll find programs, classes, and support tailored to meet your needs.";
+export const STICKY_PARA_2 =
+  "From high-intensity workouts and strength training to yoga andwellness sessions, you'll find the perfect fit to achieve yourgoals. Join our inclusive community and discover a fitness experience designed just for you.";

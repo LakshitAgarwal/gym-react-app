@@ -11,6 +11,12 @@
   font-style: normal;
 }
 
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .arsenal-sc-regular {
   font-family: "Arsenal SC", sans-serif;
   font-weight: 400;
@@ -38,6 +44,13 @@
 .bona-nova-sc-bold {
   font-family: "Bona Nova SC", serif;
   font-weight: 700;
+  font-style: normal;
+}
+
+.dm-sans-font {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -120,4 +133,41 @@
 }
 .content {
   margin: inherit;
+}
+
+.container {
+  width: 85%;
+  margin: 50px auto;
+  clear: both;
+}
+.container::before,
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.right-side {
+  float: right;
+  width: 650px;
+  vertical-align: top;
+}
+.right-side .papaDiv {
+  height: 300px;
+  background: #ffff;
+  border: 5px solid #51267f;
+  border-radius: 25px;
+  box-shadow: 8px 12px #51267f;
+}
+.right-side .papaDiv + .papaDiv {
+  margin-top: 60px;
+}
+.left-side {
+  float: left;
+  position: sticky;
+  top: 50px;
+}
+
+.sticky-button {
+  background-color: #3e187a;
+  background-image: linear-gradient(316deg, #3e187a 0%, #934ec1 74%);
 }
