@@ -94,3 +94,42 @@ export const STICKY_PARA_1 =
   "No matter your fitness level or goals, you'll find programs, classes, and support tailored to meet your needs.";
 export const STICKY_PARA_2 =
   "From high-intensity workouts and strength training to yoga andwellness sessions, you'll find the perfect fit to achieve yourgoals. Join our inclusive community and discover a fitness experience designed just for you.";
+
+export const TESTIMONIALS = [
+  {
+    img: "https://thumbor.bigedition.com/chris-cormier/wRKG_co55dhM_t7apOC_gIaDdKo=/480x360/filters:format(webp):quality(80)/granite-web-prod/91/77/91771ee8ba0a4497b17bbd57f1894dc9.jpeg",
+    name: "Jake",
+    Review:
+      "Joining this gym has been a game-changer for me. The trainers are phenomenal, the equipment is top-notch, and the atmosphere is so motivating. I've achieved fitness goals I never thought possible, all thanks to this amazing gym.",
+  },
+  {
+    img: "https://hudsonvalleystylemagazine.com/wp-content/uploads/2023/04/mxwllxndr_mature_African_American_bodybuilder_506403d5-429c-4219-8754-470057e19154.jpg",
+    name: "Ronnie",
+    Review:
+      "I love the positive energy here. Whether you're a beginner or a seasoned athlete, you feel welcome and supported. It's not just about exercise; it's a holistic approach to health, and it works.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/testimonial-1.webp",
+    name: "David",
+    Review:
+      "I can't say enough good things about this gym! The variety of classes keeps things interesting, and the trainers genuinely care about your progress. It's not just a gym; it's a community that supports and encourages each other.",
+  },
+  {
+    img: "https://gym.peushjha.com/wp-content/uploads/2023/11/testimonial-2.webp",
+    name: "Robin",
+    Review:
+      "Joining this gym has been a game-changer for me. The trainers are phenomenal, the equipment is top-notch, and the atmosphere is so motivating. I've achieved fitness goals I never thought possible, all thanks to this amazing gym.",
+  },
+  {
+    img: "https://qph.cf2.quoracdn.net/main-qimg-a349603965dfab020ae0c76588d36639-lq",
+    name: "Lisa",
+    Review:
+      "I love the positive energy here. Whether you're a beginner or a seasoned athlete, you feel welcome and supported. It's not just about exercise; it's a holistic approach to health, and it works.",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsSote4jKuwgNEvhzqeY8hqxu6M8hrySmAPQ&s",
+    name: "Saket",
+    Review:
+      "I can't say enough good things about this gym! The variety of classes keeps things interesting, and the trainers genuinely care about your progress. It's not just a gym; it's a community that supports and encourages each other.",
+  },
+];

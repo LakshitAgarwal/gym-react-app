@@ -4,6 +4,7 @@ import {
   STICKY_PARA_1,
   STICKY_PARA_2,
 } from "../utils/constants";
+import Carousal from "./Carousal";
 
 const StickySidebar = () => {
   return (
@@ -33,6 +34,7 @@ const StickySidebar = () => {
           })}
         </div>
       </div>
+      <Carousal />
     </div>
   );
 };

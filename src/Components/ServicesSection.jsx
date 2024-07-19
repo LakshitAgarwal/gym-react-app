@@ -6,7 +6,7 @@ const ServicesSection = () => {
   return (
     <div className="bg-purple-50 m-0 p-0">
       <div className="text-center">
-        <h1 className="text-2xl font-extrabold text-purple-800 arsenal-sc-regular">
+        <h1 className="text-2xl font-extrabold text-purple-800 arsenal-sc-bold">
           SERVICES
         </h1>
         <h1 className="text-5xl font-bold pt-3">Our Featured Classes</h1>
