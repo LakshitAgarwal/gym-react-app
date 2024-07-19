@@ -133,3 +133,30 @@ export const TESTIMONIALS = [
       "I can't say enough good things about this gym! The variety of classes keeps things interesting, and the trainers genuinely care about your progress. It's not just a gym; it's a community that supports and encourages each other.",
   },
 ];
+
+export const FAQ = [
+  {
+    Q: "What are your gym's hours of operation?",
+    A: "Our gym is open 24/7 for members. Our staff is available to assist you from 6 AM to 10 PM every day.",
+  },
+  {
+    Q: "What types of memberships do you offer?",
+    A: "We offer a variety of membership options including monthly, yearly, and family plans. Visit our Membership Options page for more details.",
+  },
+  {
+    Q: "Can I try the gym before committing to a membership?",
+    A: "Yes, we offer a free 7-day trial for all new visitors.",
+  },
+  {
+    Q: "Do you offer personal training?",
+    A: "Yes, we have certified personal trainers available to help you reach your fitness goals. ",
+  },
+  {
+    Q: "What is your cancellation policy?",
+    A: "Memberships can be canceled at any time with a 30-day notice.",
+  },
+  {
+    Q: "What measures are you taking to ensure the gym is clean and safe?",
+    A: "We have implemented enhanced cleaning protocols, provide hand sanitizers throughout the facility, and have increased the frequency of cleaning high-touch areas. Our staff is trained to ensure all safety guidelines are followed.",
+  },
+];
