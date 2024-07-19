@@ -160,3 +160,36 @@ export const FAQ = [
     A: "We have implemented enhanced cleaning protocols, provide hand sanitizers throughout the facility, and have increased the frequency of cleaning high-touch areas. Our staff is trained to ensure all safety guidelines are followed.",
   },
 ];
+
+export const PRICING = [
+  {
+    plan: "Basic",
+    price: "1999",
+    features: [
+      "Access to all gym equipment",
+      "Unlimited fitness classes",
+      "Personalized workout plans",
+    ],
+    billing: "Charges every month unless you cancel",
+  },
+  {
+    plan: "Pro",
+    price: "1499",
+    features: [
+      "All Basic plan features",
+      "Access to personal trainers",
+      "Nutritional guidance",
+    ],
+    billing: "Charges every 6 months unless you cancel",
+  },
+  {
+    plan: "Elite",
+    price: "999",
+    features: [
+      "All Pro plan features",
+      "Group CrossFit classes",
+      "Free gym merchandise",
+    ],
+    billing: "Charges every year unless you cancel",
+  },
+];

@@ -19,7 +19,6 @@ const AboutGym = () => {
         <motion.div
           initial={{ z: 100, opacity: 0 }}
           whileInView={{ z: 0, opacity: 1 }}
-          viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.25, ease: "easeIn" }}
           className="w-[38%] flex flex-col justify-center content h-fit"
         >

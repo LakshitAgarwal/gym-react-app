@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FAQ } from "../utils/constants";
+import Pricing from "./Pricing";
 
 const Accordian = () => {
   const [openIndex, setOpenIndex] = useState(null);

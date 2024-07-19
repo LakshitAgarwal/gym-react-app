@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { TESTIMONIALS } from "../utils/constants";
 import { useRef } from "react";
-import Accordian from "./Accordian";
+import Pricing from "./Pricing";
 
 const Carousal = () => {
   let sliderRef = useRef(null);
@@ -53,7 +53,7 @@ const Carousal = () => {
           </Slider>
         </div>
       </div>
-      <Accordian />
+      <Pricing />
     </div>
   );
 };
