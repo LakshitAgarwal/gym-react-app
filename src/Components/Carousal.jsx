@@ -33,7 +33,7 @@ const Carousal = () => {
               return (
                 <div
                   key={index}
-                  className="sticky-button p-8 text-white rounded-lg shadow-xl mb-6 min-h-[300px]"
+                  className="sticky-button p-8 text-white rounded-lg mb-6 min-h-[300px]"
                 >
                   <img
                     src={testis.img}
