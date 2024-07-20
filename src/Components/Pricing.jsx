@@ -8,16 +8,16 @@ const Pricing = () => {
         <h1 className="text-3xl font-extrabold text-purple-800 arsenal-sc-bold">
           Membership
         </h1>
-        <h1 className="text-4xl font-bold pt-3 w-1/2 mx-auto dm-sans-bold">
+        <h1 className="text-2xl md:text-4xl font-bold pt-3 w-[90%] md:w-1/2 mx-auto dm-sans-bold">
           Crushing your health and fitness goals starts here...
         </h1>
       </div>
-      <div className="flex justify-around w-[90%] mx-auto">
+      <div className="flex flex-col md:flex-row md:justify-around md:w-[90%] mx-auto">
         {PRICING.map((p, i) => {
           return (
             <div
               key={i}
-              className="pricing-container hover:scale-[1.15] transition-transform duration-300 ease-in-out p-4 m-4 text-white min-h-[480px] bg-white min-w-[350px] rounded-xl mb-24"
+              className="pricing-container hover:scale-[1.15] transition-transform duration-300 ease-in-out p-4 m-4 text-white min-h-[480px] bg-white min-w-[350px] rounded-xl mb-10 md:mb-24"
             >
               <div className="text-center w-3/4 mx-auto">
                 <h2 className="text-5xl arsenal-sc-bold font-bold text-black py-5">
