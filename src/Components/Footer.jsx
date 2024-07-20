@@ -7,7 +7,7 @@ import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="btn">
+    <div className="sticky-button">
       <div className="w-[85%] mx-auto text-white flex justify-around">
         <div className="w-56">
           <h1 className="footer-heading pt-6 text-4xl font-bold arsenal-sc-bold">
