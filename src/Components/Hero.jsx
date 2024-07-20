@@ -25,12 +25,12 @@ const Hero = () => {
             alt="Heroine"
           />
         </div>
-        <div className="flex flex-col items-center ml-16 arsenal-sc-regular">
+        <div className="flex flex-col items-center m-auto arsenal-sc-regular">
           <motion.h1
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-[5.5rem] mt-32 tracking-wider web-title"
+            className="text-[5.5rem] tracking-wider web-title"
           >
             <span className="text-9xl">F</span>it
             <span className="text-9xl">L</span>ife{" "}
