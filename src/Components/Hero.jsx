@@ -6,7 +6,7 @@ import ThreeCards from "./ThreeCards";
 
 const Hero = () => {
   return (
-    <div className="bg-purple-50">
+    <div>
       <Bg />
       <div className="flex sticky top-[100px]">
         <div className="yes">
