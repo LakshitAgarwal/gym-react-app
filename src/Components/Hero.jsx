@@ -21,7 +21,7 @@ const Hero = () => {
               stiffness: 70,
             }}
             src={heroine}
-            className="heroine w-[42rem]"
+            className="heroine w-[85vh]"
             alt="Heroine"
           />
         </div>
