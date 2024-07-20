@@ -119,11 +119,7 @@
 .heroine {
   filter: drop-shadow(10px 10px 1rem #af95da);
 }
-.yes {
-  height: 85.8vh;
-  display: flex;
-  align-items: flex-end;
-}
+
 
 .web-title {
   color: rgb(48, 0, 66);

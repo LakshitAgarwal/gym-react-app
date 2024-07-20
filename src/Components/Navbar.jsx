@@ -4,7 +4,7 @@ import Hero from "./Hero";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="bg-purple-50 md:bg-transparent">
       <div className="flex justify-between mr-20 ml-10 sticky top-0">
         {/* <Bg /> */}
         <img className="w-28" src={logo} alt="Gym Logo" />
