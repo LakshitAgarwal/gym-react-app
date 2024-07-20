@@ -138,6 +138,11 @@
     margin-top: 112px;
   }
 }
+@media (max-width: 768px) {
+  .content {
+    margin: auto !important;
+  }
+}
 
 .content {
   margin: inherit;
