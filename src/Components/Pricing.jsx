@@ -17,7 +17,7 @@ const Pricing = () => {
           return (
             <div
               key={i}
-              className="pricing-container hover:scale-[1.15] transition-transform duration-300 ease-in-out p-4 m-4 text-white min-h-[480px] bg-white min-w-[350px] rounded-xl mb-10 md:mb-24"
+              className="pricing-container md:hover:scale-[1.15] transition-transform duration-300 ease-in-out w-[85%] h-[450px] mx-auto md:p-4 md:m-4 text-white md:min-h-[480px] bg-white max-w-[350px] rounded-xl mb-10 md:mb-24"
             >
               <div className="text-center w-3/4 mx-auto">
                 <h2 className="text-5xl arsenal-sc-bold font-bold text-black py-5">
