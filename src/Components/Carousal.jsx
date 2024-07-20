@@ -16,7 +16,7 @@ const Carousal = () => {
     autoplaySpeed: 2000,
   };
   return (
-    <div className="bg-purple-50 py-10">
+    <div className="bg-purple-50 pt-10">
       <div className="text-center">
         <h1 className="text-3xl mt-10 font-extrabold text-purple-800 arsenal-sc-bold">
           TESTIMONIALS

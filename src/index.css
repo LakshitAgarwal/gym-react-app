@@ -207,3 +207,8 @@
 .pricing-container {
   box-shadow: 10px 10px 1rem #af95da;
 }
+
+.footer-heading{
+  padding-bottom: 4px;
+  border-bottom: 4px solid #c2a4f3;
+}

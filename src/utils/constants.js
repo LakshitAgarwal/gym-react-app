@@ -193,3 +193,6 @@ export const PRICING = [
     billing: "Charges every year unless you cancel",
   },
 ];
+
+export const FOOTER_ABOUT =
+  "Elevate your fitness journey with us. We're dedicated to providing a welcoming, motivating, and inclusive environment where your goals become achievements.";

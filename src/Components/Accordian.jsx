@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FAQ } from "../utils/constants";
-import Pricing from "./Pricing";
+import Footer from "./Footer";
 
 const Accordian = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -11,13 +11,13 @@ const Accordian = () => {
 
   return (
     <div className="bg-purple-50">
-      <div className="w-2/3 mx-auto">
+      <div className="w-2/3 mx-auto select-none">
         <div className="mt-20 mb-10 text-purple-950">
           <h1 className="text-6xl arsenal-sc-bold text-center mt-10">
             Frequently Asked Questions
           </h1>
         </div>
-        <div className="right">
+        <div className="right mb-36">
           {FAQ.map((faq, i) => (
             <div key={i}>
               <div
@@ -49,6 +49,7 @@ const Accordian = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
