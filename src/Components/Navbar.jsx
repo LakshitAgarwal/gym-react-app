@@ -1,9 +1,10 @@
 import logo from "../assets/gym-logo.png";
+import Hero from "./Hero";
 // import Bg from "./Bg";
 
 const Navbar = () => {
   return (
-    <>
+    <div>
       <div className="flex justify-between mr-20 ml-10 sticky top-0">
         {/* <Bg /> */}
         <img className="w-28" src={logo} alt="Gym Logo" />
@@ -20,7 +21,8 @@ const Navbar = () => {
           Join Now
         </button>
       </div>
-    </>
+      <Hero />
+    </div>
   );
 };
 
