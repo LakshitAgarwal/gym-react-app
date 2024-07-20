@@ -21,11 +21,11 @@ const Hero = () => {
               stiffness: 70,
             }}
             src={heroine}
-            className="heroine w-[85vh]"
+            className="heroine w-[90vh]"
             alt="Heroine"
           />
         </div>
-        <div className="flex flex-col items-center m-auto arsenal-sc-regular">
+        <div className="flex flex-col items-center my-auto ml-16 w-fit arsenal-sc-regular">
           <motion.h1
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
