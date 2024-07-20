@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div>
       <Bg />
-      <div className="flex sticky top-[100px]">
-        <div className="yes">
+      <div className="flex flex-col md:flex-row sticky top-[100px]">
+        <div className="hidden md:block">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -21,26 +21,26 @@ const Hero = () => {
               stiffness: 70,
             }}
             src={heroine}
-            className="heroine w-[90vh]"
+            className="w-[90vh]"
             alt="Heroine"
           />
         </div>
-        <div className="flex flex-col items-center my-auto ml-16 w-fit arsenal-sc-regular">
+        <div className="flex flex-col items-center md:my-auto md:ml-16 w-full md:w-fit arsenal-sc-regular text-center md:text-left">
           <motion.h1
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-[5.5rem] tracking-wider web-title"
+            className="text-4xl md:text-[5.5rem] tracking-wider web-title"
           >
-            <span className="text-9xl">F</span>it
-            <span className="text-9xl">L</span>ife{" "}
-            <span className="text-9xl">G</span>ym
+            <span className="text-6xl md:text-9xl">F</span>it
+            <span className="text-6xl md:text-9xl">L</span>ife{" "}
+            <span className="text-6xl md:text-9xl">G</span>ym
           </motion.h1>
           <motion.h3
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-2xl tracking-wide "
+            className="text-xl md:text-2xl tracking-wide mt-4 md:mt-0"
           >
             {TAGLINE}
           </motion.h3>
@@ -48,7 +48,7 @@ const Hero = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="text-xl tracking-wide mt-10 max-w-xl text-center"
+            className="text-lg md:text-xl tracking-wide mt-6 md:mt-10 max-w-xl"
           >
             {PURPOSE}
           </motion.h3>
