@@ -30,7 +30,7 @@ const AboutGym = () => {
           <h2 className="mt-0 font-bold text-xl">{ABOUT_HEADING}</h2>
           <p className="mt-8 text-gray-500 text-lg">{ABOUT_CONTENT_PARA1}</p>
           <p className="mt-3 text-gray-500 text-lg">{ABOUT_CONTENT_PARA2}</p>
-          <button className="btn arsenal-sc-regular contact-hover w-1/2 md:w-2/6 rounded-full text-white tracking-wider p-3 pl-6 pr-6 mt-6">
+          <button className="btn arsenal-sc-regular contact-hover w-fit md:w-2/6 rounded-full text-white tracking-wider p-3 pl-6 pr-6 mt-6">
             Take a Tour &rarr;
           </button>
         </motion.div>
