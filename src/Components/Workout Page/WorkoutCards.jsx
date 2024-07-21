@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import { WORKOUT_CARDS_CONTENT, img_array } from "../../utils/constants";
+import { Link } from "react-router-dom";
 
 const WorkoutCards = () => {
   return (
-    <div className="min-h-screen md:h-screen bg-purple-50 sticky top-[112px]">
+    <div className="bg-purple-50">
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -23,9 +24,11 @@ const WorkoutCards = () => {
                 {cc.heading}
               </h1>
               <p className="m-2 text-gray-500">{cc.description}</p>
-              <button className="services-btn hover:bg-purple-50 hover:text-purple-900 rounded-lg text-white tracking-wider mx-auto arsenal-sc-bold p-3 pl-4 pr-4 mt-6 mb-4">
-                Book Your Class &rarr;
-              </button>
+              <Link to="/contact">
+                <button className="services-btn rounded-lg text-white tracking-wider mx-auto arsenal-sc-regular p-3 pl-4 pr-4 mt-6 mb-4">
+                  Book Your Class &rarr;
+                </button>
+              </Link>
             </div>
           );
         })}

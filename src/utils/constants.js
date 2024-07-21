@@ -222,3 +222,9 @@ export const WORKOUT_CARDS_CONTENT = [
       "Our gym is your 24/7 fitness haven, allowing you to train on your schedule, day or night.",
   },
 ];
+
+export const INQUIRY_URL =
+  "https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg";
+
+export const INQUIRY_URL_2 =
+  "https://cdn.pixabay.com/photo/2023/03/12/16/10/man-7847247_1280.jpg";
