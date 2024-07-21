@@ -196,3 +196,29 @@ export const PRICING = [
 
 export const FOOTER_ABOUT =
   "Elevate your fitness journey with us. We're dedicated to providing a welcoming, motivating, and inclusive environment where your goals become achievements.";
+
+export const WORKOUT_HERO_URL =
+  "https://gym.peushjha.com/wp-content/uploads/2023/11/slider3.webp";
+export const WORKOUT_HEADING = "JOIN OUR FITNESS WORKOUT PROGRAM";
+
+export const WORKOUT_CARDS_CONTENT = [
+  {
+    imgComponent: "<FaAward />",
+    heading: "Strategy and Planning",
+    description:
+      "Proudly certified as one of the best fitness institutes, offering top-tier training and education",
+  },
+  {
+    imgComponent: "<GiBullseye />",
+    heading: "Achieve Your Goals",
+    description:
+      "Unlock your full potential and reach your fitness goals with our expert guidance and unwavering support.",
+  },
+
+  {
+    imgComponent: "<TbHeartRateMonitor />",
+    heading: "At Your Convenience",
+    description:
+      "Our gym is your 24/7 fitness haven, allowing you to train on your schedule, day or night.",
+  },
+];

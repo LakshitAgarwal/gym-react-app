@@ -124,6 +124,10 @@
   color: rgb(48, 0, 66);
 }
 
+.workout-cards {
+  box-shadow: 2px 2px 2rem #af95da;
+}
+
 .cards {
   box-shadow: 2px 2px 2rem #af95da;
   border-radius: 25% 5%;
@@ -195,7 +199,6 @@
     float: none;
     position: static;
   }
-  
 }
 
 .sticky-button {
