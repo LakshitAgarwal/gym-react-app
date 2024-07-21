@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "../assets/gym-logo.png";
 import Hero from "./Hero";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [hamValue, setHamValue] = useState(false);
@@ -13,10 +14,17 @@ const Navbar = () => {
       <div className="flex md:flex-row flex-col ml-2 mr-3 justify-between md:mr-20 md:ml-10 sticky top-0">
         <div className="flex justify-between">
           <img className=" w-20 md:w-28" src={logo} alt="Gym Logo" />
-          <GiHamburgerMenu
-            onClick={handleHamburger}
-            className="md:hidden text-3xl my-auto mr-4 text-purple-900"
-          />
+          {hamValue ? (
+            <IoClose
+              onClick={handleHamburger}
+              className="md:hidden text-3xl my-auto mr-4 text-purple-900"
+            />
+          ) : (
+            <GiHamburgerMenu
+              onClick={handleHamburger}
+              className="md:hidden text-3xl my-auto mr-4 text-purple-900"
+            />
+          )}
         </div>
         {hamValue ? (
           <div className="md:hidden mx-auto text-center">
