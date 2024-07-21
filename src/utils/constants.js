@@ -174,7 +174,7 @@ export const PRICING = [
   },
   {
     plan: "Pro",
-    price: "1499",
+    price: "2499",
     features: [
       "All Basic plan features",
       "Access to personal trainers",
@@ -184,7 +184,7 @@ export const PRICING = [
   },
   {
     plan: "Elite",
-    price: "999",
+    price: "3499",
     features: [
       "All Pro plan features",
       "Group CrossFit classes",
