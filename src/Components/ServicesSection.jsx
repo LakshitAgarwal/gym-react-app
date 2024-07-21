@@ -4,7 +4,7 @@ import StickySidebar from "./StickySidebar";
 
 const ServicesSection = () => {
   return (
-    <div className="bg-purple-50 m-0 p-0">
+    <div className="bg-purple-50 m-0 p-0 overflow-x-hidden md:overflow-x-visible">
       <div className="text-center mt-20 sm:mt-0">
         <h1 className="text-3xl font-extrabold text-purple-800 arsenal-sc-bold">
           SERVICES
