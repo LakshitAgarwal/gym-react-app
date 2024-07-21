@@ -226,5 +226,40 @@ export const WORKOUT_CARDS_CONTENT = [
 export const INQUIRY_URL =
   "https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg";
 
-export const INQUIRY_URL_2 =
-  "https://cdn.pixabay.com/photo/2023/03/12/16/10/man-7847247_1280.jpg";
+export const EQUIPMENTS_GALLERY = [
+  {
+    heading: "Cardiovascular Equipment",
+    list: [
+      "Treadmills",
+      "Stationary bikes",
+      "Ellipticals",
+      "Stair climbers",
+      "Rowing machines",
+    ],
+  },
+  {
+    heading: "Strength Training Equipment",
+    list: [
+      "Weight Benches",
+      "Barbells",
+      "Dumbbells",
+      "Smith Machines",
+      "Leg Press Machines",
+      "Cable Machines",
+      "Leg Extension/Curl Machines",
+      "Power Racks",
+      "Lat Pulldown Machines",
+    ],
+  },
+  {
+    heading: "Functional Training Equipment",
+    list: [
+      "Battle Ropes",
+      "Medicine balls",
+      "Resistance bands",
+      "Plyometric boxes",
+      "TRX suspension trainers",
+      "Kettlebells",
+    ],
+  },
+];

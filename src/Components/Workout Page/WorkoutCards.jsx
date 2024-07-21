@@ -8,7 +8,6 @@ const WorkoutCards = () => {
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.3 }}
         className="card flex flex-col md:flex-row justify-around ml-4 mr-4 sm:ml-8 sm:mr-8 md:ml-16 md:mr-16"
       >
