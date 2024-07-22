@@ -1,5 +1,5 @@
-import { SERVICES_CARD_INFO } from "../utils/constants";
 import { motion } from "framer-motion";
+import { SERVICES_CARD_INFO } from "../utils/constants";
 import StickySidebar from "./StickySidebar";
 
 const ServicesSection = () => {

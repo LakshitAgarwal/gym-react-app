@@ -5,11 +5,11 @@ const EquipmentGallery = () => {
   return (
     <div className="mt-24">
       <div>
-        <h1 className="text-center text-6xl text-purple-950 w-fit mx-auto arsenal-sc-regular">
+        <h1 className="text-center text-4xl md:text-6xl text-purple-950 w-fit mx-auto arsenal-sc-regular">
           Equipments Gallery
         </h1>
       </div>
-      <div className="flex w-[80%] justify-around mx-auto mt-12">
+      <div className="flex flex-col md:flex-row w-[80%] gap-6 justify-around mx-auto mt-12">
         {EQUIPMENTS_GALLERY.map((eq, i) => {
           return (
             <div key={i}>

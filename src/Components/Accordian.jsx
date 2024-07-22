@@ -25,7 +25,9 @@ const Accordian = () => {
                 className="bg-purple-100 p-4 my-6 mx-3 md:p-7 md:m-5 rounded-xl cursor-pointer"
               >
                 <div className="flex justify-between ">
-                  <h1 className="md:text-xl text-lg dm-sans-font w-[87%]">{faq.Q}</h1>
+                  <h1 className="md:text-xl text-lg dm-sans-font w-[87%]">
+                    {faq.Q}
+                  </h1>
                   <button>{openIndex === i ? "⬆️" : "⬇️"}</button>
                 </div>
                 {openIndex === i ? (

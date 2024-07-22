@@ -1,8 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { TESTIMONIALS } from "../utils/constants";
 import { useRef } from "react";
+import { TESTIMONIALS } from "../utils/constants";
 import Pricing from "./Pricing";
 
 const Carousal = () => {
@@ -35,7 +35,9 @@ const Carousal = () => {
         <h1 className="text-3xl mt-10 font-extrabold text-purple-800 arsenal-sc-bold">
           TESTIMONIALS
         </h1>
-        <h1 className="text-4xl md:text-5xl font-bold pt-3">What Clients Say</h1>
+        <h1 className="text-4xl md:text-5xl font-bold pt-3">
+          What Clients Say
+        </h1>
         <p className="mx-auto w-[90%] md:w-1/3 text-lg py-4 md:pb-6 text-gray-500">
           Our Trainers know what is best for your body and they work to the best
           of your needs.

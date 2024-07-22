@@ -1,8 +1,8 @@
+import Pricing from "../Pricing";
 import EquipmentGallery from "./EquipmentGallery";
 import InquirySection from "./InquirySection";
 import WorkoutCards from "./WorkoutCards";
 import WorkoutHero from "./WorkoutHero";
-import Pricing from "../Pricing";
 
 const WorkoutPage = () => {
   return (

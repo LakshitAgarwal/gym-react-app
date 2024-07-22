@@ -65,7 +65,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center text-white text-sm dm-sans-font pt-10 pb-3 md:py-3">Copyright © 2023 gym | Created by Lakshit Agarwal</p>
+      <p className="text-center text-white text-sm dm-sans-font pt-10 pb-3 md:py-3">
+        Copyright © 2023 gym | Created by Lakshit Agarwal
+      </p>
     </div>
   );
 };
