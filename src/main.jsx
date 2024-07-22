@@ -3,10 +3,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import AboutPage from "./Components/AboutPage.jsx";
 import ContactPage from "./Components/ContactPage.jsx";
 import WorkoutPage from "./Components/Workout Page/WorkoutPage.jsx";
 import Hero from "./Components/Hero.jsx";
+import AboutPage from "./Components/About Page/AboutPage.jsx";
 
 const appRouter = createBrowserRouter([
   {

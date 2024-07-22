@@ -243,3 +243,14 @@
 .phn-icon {
   border: 1px solid white;
 }
+
+.instructors-info {
+  box-shadow: 10px 10px 1rem #af95da;
+}
+
+.bioDiv{
+  background: #ffff;
+  border: 5px solid #51267f;
+  border-radius: 25px;
+  box-shadow: 8px 12px #51267f;
+}

@@ -6,6 +6,7 @@ import {
   ATHELETE_URL,
 } from "../utils/constants";
 import ServicesSection from "./ServicesSection";
+import { Link } from "react-router-dom";
 
 const AboutGym = () => {
   return (
@@ -30,9 +31,11 @@ const AboutGym = () => {
           <h2 className="mt-0 font-bold text-xl">{ABOUT_HEADING}</h2>
           <p className="mt-8 text-gray-500 text-lg">{ABOUT_CONTENT_PARA1}</p>
           <p className="mt-3 text-gray-500 text-lg">{ABOUT_CONTENT_PARA2}</p>
-          <button className="btn arsenal-sc-regular contact-hover w-fit md:w-2/6 rounded-full text-white tracking-wider p-3 pl-6 pr-6 mt-6">
-            Take a Tour &rarr;
-          </button>
+          <Link to="/workout">
+            <button className="btn arsenal-sc-regular contact-hover w-fit rounded-full text-white tracking-wider p-3 pl-6 pr-6 mt-6">
+              Take a Tour &rarr;
+            </button>
+          </Link>
         </motion.div>
       </div>
       <ServicesSection />

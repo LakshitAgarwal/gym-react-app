@@ -2,11 +2,11 @@ export const NAME = "FitLife Gym";
 export const TAGLINE = "Transform Your Fitness Journey";
 export const PURPOSE =
   "From nutritious recipes to professional healthcare advice, we provide all the resources you need to achieve your wellness goals.";
-const CLOCK_URL =
+export const CLOCK_URL =
   "https://gym.peushjha.com/wp-content/uploads/2023/11/shape-53.png";
-const WORKOUT_URL =
+export const WORKOUT_URL =
   "https://gym.peushjha.com/wp-content/uploads/2023/11/shape-51.png";
-const NUTRITION_URL =
+export const NUTRITION_URL =
   "https://gym.peushjha.com/wp-content/uploads/2023/11/shape-52.png";
 
 export const ATHELETE_URL =
@@ -261,5 +261,65 @@ export const EQUIPMENTS_GALLERY = [
       "TRX suspension trainers",
       "Kettlebells",
     ],
+  },
+];
+
+export const ABOUT_BANNER_URL =
+  "https://gym.peushjha.com/wp-content/uploads/2023/11/banner.webp";
+
+export const ABOUT_ME_IMG =
+  "https://gym.peushjha.com/wp-content/uploads/2023/11/testimonial-2.webp";
+
+export const ABOUT_ME_CONTENT = [
+  {
+    intro: "WHO WE ARE ",
+    heading: "We Will Give You Strength and Health!",
+    description:
+      "In Latest fitness equipment. 4,000 sq.ft. of gym workout space. A brand new gym. Dedicated personal training and CrossFit Studio. Internationally certified personal trainers. We are the champions of fitness.",
+    facilities: [
+      "Community Engagement",
+      "Personalized Wellness Plans",
+      "Cutting-Edge Technology",
+      "Unique Class Offerings",
+      "Eco-Friendly Initiatives",
+    ],
+  },
+];
+
+export const SQUARE_DIV_IMG_1_URL =
+  "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-2.webp";
+
+export const HEADING_1 = "Personalized Training";
+export const DESCRIPTION_1 =
+  "Promote the personalized approach your trainers take with each member. Mention their ability to tailor workouts and nutrition plans to individual goals, ensuring members get the best results.";
+
+export const SQUARE_DIV_IMG_2_URL =
+  "https://gym.peushjha.com/wp-content/uploads/2023/11/gym-4.webp";
+
+export const HEADING_2 = "Diverse Specializations";
+export const DESCRIPTION_2 =
+  "Mention the diverse skill set of your trainers, including expertise in areas such as weight loss, strength training, rehabilitation, and sports-specific training. This diversity allows your gym to cater to a wide range of fitness needs.";
+
+export const OUR_TEAM_INFO = [
+  {
+    IMG_URL:
+      "https://gym.peushjha.com/wp-content/uploads/2023/11/testimonial-1.webp",
+    NAME: "David Obama",
+    Designation: "Functional Fitness Specialist",
+    bio: "James is the embodiment of functional fitness. His background in physical therapy combined with a passion for functional movement makes him the perfect trainer for those seeking to improve mobility and overall strength. With James, you'll not only get an exceptional workout but also gain a deeper understanding of how your body moves and functions. His focus on injury prevention and rehabilitation ensures every session is a step toward a healthier, more capable you.",
+  },
+  {
+    IMG_URL:
+      "https://gym.peushjha.com/wp-content/uploads/2023/11/testimonial-3.webp",
+    NAME: "Sarah James",
+    Designation: "Certified Yoga Guru",
+    bio: "Sarah is not just a yoga instructor; she's a guide to inner peace and strength. With over a decade of experience in various yoga disciplines, Sarah brings a unique blend of mindfulness and physical mastery to her classes. Whether you're a beginner or a seasoned yogi, Sarah's warm and inclusive teaching style ensures that every session is a journey of self-discovery.",
+  },
+  {
+    IMG_URL:
+      "https://gym.peushjha.com/wp-content/uploads/2023/11/testimonial-2.webp",
+    NAME: "Mike Rodes",
+    Designation: "Strength & Conditioning Specialist",
+    bio: "Meet Mike, our resident strength and conditioning expert. With a background in collegiate athletics and multiple certifications, he's the go-to trainer for those serious about building muscle and increasing athletic performance. Mike's passion for helping clients reach their full potential shines through in his high-intensity workouts and unwavering dedication to your success.",
   },
 ];
