@@ -18,7 +18,7 @@ const InquirySection = () => {
         <div className="flex flex-col  md:flex-row mt-6 md:gap-10">
           <Link to="/contact">
             <button className="services-btn rounded-lg text-white md:tracking-wider mx-auto arsenal-sc-regular p-2 md:p-3 md:pl-4 md:pr-4 md:mt-6 mb-4">
-              Book Your Class &rarr;
+              Call Now &rarr;
             </button>
           </Link>
           <div className="flex my-auto text-lg">
