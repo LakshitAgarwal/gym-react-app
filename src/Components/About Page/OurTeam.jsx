@@ -47,23 +47,26 @@ const OurTeam = () => {
             <p className="text-gray-600 text-sm my-4">{team.Designation}</p>
             <div className="flex justify-center space-x-6 text-3xl">
               <a
-                href={team.Twitter}
+                href="https://x.com/LakshitAgarwal7"
                 target="_blank"
                 className="text-black transition-colors"
+                onClick={(e) => e.stopPropagation()}
               >
                 <FaXTwitter />
               </a>
               <a
-                href={team.LinkedIn}
+                href="https://www.linkedin.com/in/lakshit-agarwal-6082b9216/"
                 target="_blank"
                 className="text-blue-500 transition-colors"
+                onClick={(e) => e.stopPropagation()}
               >
                 <FaLinkedin />
               </a>
               <a
-                href={team.Instagram}
+                href="https://www.instagram.com/lakshit.7811/"
                 target="_blank"
                 className="text-pink-500 transition-colors"
+                onClick={(e) => e.stopPropagation()}
               >
                 <FaInstagram />
               </a>
