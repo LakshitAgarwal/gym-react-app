@@ -46,7 +46,7 @@ const Navbar = () => {
               </Link>
               <Link to="/contact">
                 <li className="cursor-pointer hover:text-purple-700 ">
-                  Consultation
+                  Contact
                 </li>
               </Link>
             </ul>
@@ -69,9 +69,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link to="/contact">
-              <li className="cursor-pointer hover:text-purple-800 ">
-                Consultation
-              </li>
+              <li className="cursor-pointer hover:text-purple-800 ">Contact</li>
             </Link>
           </ul>
         </div>

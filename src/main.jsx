@@ -7,6 +7,7 @@ import WorkoutPage from "./Components/Workout Page/WorkoutPage.jsx";
 import Hero from "./Components/Hero.jsx";
 import AboutPage from "./Components/About Page/AboutPage.jsx";
 import ContactPage from "./Components/Contact Page/ContactPage.jsx";
+import Success from "./Components/Contact Page/Success.jsx";
 
 const appRouter = createHashRouter([
   {
@@ -28,6 +29,10 @@ const appRouter = createHashRouter([
       {
         path: "/contact",
         element: <ContactPage />,
+      },
+      {
+        path: "/success",
+        element: <Success />,
       },
     ],
   },
