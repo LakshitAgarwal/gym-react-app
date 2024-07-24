@@ -50,9 +50,11 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <button className="btn w-fit rounded-full text-white p-2 pl-4 pr-4 mx-auto md:mx-0 mt-4 md:mt-auto mb-7 md:mb-auto">
-              Join Now
-            </button>
+            <Link to="/contact">
+              <button className="btn w-fit rounded-full text-white p-2 pl-4 pr-4 mx-auto md:mx-0 mt-4 md:mt-auto mb-7 md:mb-auto">
+                Join Now
+              </button>
+            </Link>
           </div>
         ) : null}
         <div className="  m-auto hidden md:block ">
