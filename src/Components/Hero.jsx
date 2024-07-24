@@ -3,6 +3,7 @@ import { PURPOSE, TAGLINE } from "../utils/constants";
 import { motion } from "framer-motion";
 import Bg from "./Bg";
 import ThreeCards from "./ThreeCards";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -61,9 +62,11 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.75 }}
           >
-            <motion.button className="btn contact-hover rounded-full text-white tracking-wider p-3 pl-6 pr-6 mt-6">
-              Contact Us
-            </motion.button>
+            <Link to="/contact">
+              <motion.button className="btn contact-hover rounded-full text-white tracking-wider p-3 pl-6 pr-6 mt-6">
+                Contact Us
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       </div>

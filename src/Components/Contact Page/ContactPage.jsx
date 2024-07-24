@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const ContactPage = () => {
   const navigate = useNavigate();
@@ -55,17 +56,37 @@ const ContactPage = () => {
         <div className="flex flex-col gap-16 lg:flex-row">
           {/* Left Side */}
           <div className="w-full lg:w-1/2">
-            <h1 className="text-3xl text-purple-900 arsenal-sc-bold">
+            <motion.h1
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="text-3xl text-purple-900 arsenal-sc-bold"
+            >
               Get in Touch
-            </h1>
-            <h1 className="text-xl md:text-4xl my-4 font-bold">
+            </motion.h1>
+            <motion.h1
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              className="text-xl md:text-4xl my-4 font-bold"
+            >
               ASK ME OR CALL ME FOR ANY QUESTION.
-            </h1>
-            <p className="text-gray-500 my-6 mb-10">
+            </motion.h1>
+            <motion.p
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.7 }}
+              className="text-gray-500 my-6 mb-10"
+            >
               Have questions or need assistance? I am here to help. Reach out to
               me for inquiries or any information you need.
-            </p>
-            <div className="flex flex-col lg:flex-row">
+            </motion.p>
+            <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.9 }}
+              className="flex flex-col lg:flex-row"
+            >
               <div className="mb-6 lg:mb-0 lg:mr-8">
                 <h1 className="text-2xl dm-sans-bold w-fit text-purple-900 mb-1 border-b-[3px] border-purple-500">
                   Address
@@ -86,8 +107,10 @@ const ContactPage = () => {
                 </p>
                 <p className="text-lg text-gray-500 my-3">Sunday: Closed</p>
               </div>
-            </div>
-            <div className="flex flex-col lg:flex-row mt-5">
+            </motion.div>
+            <motion.div initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1.1 }} className="flex flex-col lg:flex-row mt-5">
               <div className="mb-6 lg:mb-0 lg:mr-8">
                 <h1 className="text-2xl dm-sans-bold w-fit text-purple-900 mb-1 border-b-[3px] border-purple-500">
                   Details
@@ -125,10 +148,15 @@ const ContactPage = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           {/* Form */}
-          <div className="w-full lg:w-1/2 my-auto">
+          <motion.div
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay:0.2 }}
+            className="w-full lg:w-1/2 my-auto"
+          >
             <form
               className="bg-purple-50 p-5 rounded-lg"
               onSubmit={formik.handleSubmit}
@@ -211,7 +239,7 @@ const ContactPage = () => {
                 </p>
               ) : null}
             </form>
-          </div>
+          </motion.div>
         </div>
       </div>
       <Footer />

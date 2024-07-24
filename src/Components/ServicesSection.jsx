@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { SERVICES_CARD_INFO } from "../utils/constants";
 import StickySidebar from "./StickySidebar";
+import { Link } from "react-router-dom";
 
 const ServicesSection = () => {
   return (
@@ -42,9 +43,11 @@ const ServicesSection = () => {
                   <p className="text-center mt-4 sm:mt-6 px-4 sm:px-6 lg:px-9 text-base sm:text-lg text-gray-500">
                     {service.description}
                   </p>
-                  <button className="services-btn rounded-lg text-white tracking-wider arsenal-sc-regular p-3 pl-6 pr-6 mt-6 mb-6">
-                    Join Now
-                  </button>
+                  <Link to="/contact">
+                    <button className="services-btn rounded-lg text-white tracking-wider arsenal-sc-regular p-3 pl-6 pr-6 mt-6 mb-6">
+                      Join Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

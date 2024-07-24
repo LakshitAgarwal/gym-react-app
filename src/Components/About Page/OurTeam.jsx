@@ -34,7 +34,7 @@ const OurTeam = () => {
           <div
             key={i}
             onClick={() => handleBio(i)}
-            className="bg-white instructors-info cursor-pointer rounded-lg shadow-2xl p-6 flex flex-col items-center text-center w-[90%] mx-auto md:mx-0 md:w-[25%] min-h-[47vh]"
+            className="hover:scale-110 transition  ease-in  bg-white instructors-info cursor-pointer rounded-lg shadow-2xl p-6 flex flex-col items-center text-center w-[90%] mx-auto md:mx-0 md:w-[25%] min-h-[47vh]"
           >
             <img
               src={team.IMG_URL}

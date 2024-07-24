@@ -1,5 +1,6 @@
 import { PRICING } from "../utils/constants";
 import Accordian from "./Accordian";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -37,9 +38,11 @@ const Pricing = () => {
                   })}
                 </div>
                 <p className="text-gray-500 py-4">{p.billing}</p>
-                <button className="btn rounded-full text-white p-2 pl-6 pr-6 my-5">
-                  Join Now
-                </button>
+                <Link to="/contact">
+                  <button className="btn rounded-full text-white p-2 pl-6 pr-6 my-5">
+                    Join Now
+                  </button>
+                </Link>
               </div>
             </div>
           );
