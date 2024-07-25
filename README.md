@@ -3,11 +3,10 @@
 Welcome to the Gym Website project! This is a modern, responsive website built using React and styled with Tailwind CSS, featuring lots of cool animations powered by Framer Motion.
 
 ## Demo
+https://github.com/user-attachments/assets/181ac98d-dbaf-4061-a93c-8a4451c5f2fd
 
-https://github.com/user-attachments/assets/8bd6ec29-175c-4e43-8edb-4185b67852a6
-
-
-
+## Deployed Link
+https://fitnesslifegym.netlify.app/
 
 ## Technologies
 - React
