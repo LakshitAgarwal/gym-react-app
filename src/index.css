@@ -254,3 +254,11 @@
   border-radius: 25px;
   box-shadow: 8px 12px #51267f;
 }
+
+.slick-prev:before{
+  color: #2f0958 !important;
+}
+
+.slick-next:before{
+  color: #2f0958 !important;
+}
